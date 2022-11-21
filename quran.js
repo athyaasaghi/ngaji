@@ -42,7 +42,7 @@ function showCards(m) {
                 <h5 class="card-title">${m.nama_latin}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Surat: ${m.nama}</h6>
                 <h6 class="card-subtitle mb-2 text-muted">Total Surat: ${m.jumlah_ayat}</h6>
-                <a onclick="location.href='api.html?nomorsurat=${m.nomor}'" target="_blank" >lihat...</a>
+                <a onclick="location.href='file/api.html?nomorsurat=${m.nomor}'" target="_blank" >lihat...</a>
                 </div>
                 <img src="img/quran1.png" class="card-img-top">
             </div>
