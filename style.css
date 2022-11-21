@@ -119,7 +119,7 @@ body {
     padding: 10px 40px;
     color:rgb(32, 30, 30);
     border: 1px solid #eee;
-    box-shadow: 0 7px 3px rgba(0,0,0, 0.9);
+    box-shadow: 0 7px 3px rgba(173, 173, 173, 0.9);
   }
 
 
@@ -329,18 +329,18 @@ body {
 }
 
 .whatsap span{
-  color: green;
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .instagram {
-  color: rgb(228, 125, 142);
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .instagram:hover {
   background-color: white;
 }
 
-.facebook:hover {
+.whatsap:hover {
   background-color: white;
 }
 
@@ -351,5 +351,25 @@ body {
 
 .kontak_container h3 {
   font-size: 19px;
+  opacity: 0.5;
+}
+
+.kontak_container p {
+  opacity: 0.5;
+}
+
+label {
+  opacity:0.5;
+}
+
+.footer_bawah {
+  background-color: #eee;
+  height: 40px;
+  width: 100%;
+}
+
+.footer_bawah p {
+  text-align: center;
+  padding-top: 5px;
   opacity: 0.5;
 }
