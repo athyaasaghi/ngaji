@@ -1,4 +1,12 @@
 @media (max-width: 576px) {
+
+    .menu-toggle {
+        margin-bottom: 100px;
+      }
+
+    .header {
+        height: 50px;
+    }
     
     .carousel-item img {
         margin-bottom: 50px;
