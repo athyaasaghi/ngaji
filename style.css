@@ -115,12 +115,34 @@ body {
     width:100%;
   }
 
-  .tulisan_tombol {
-    padding: 10px 40px;
-    color:rgb(32, 30, 30);
-    border: 1px solid #eee;
-    box-shadow: 0 7px 3px rgba(173, 173, 173, 0.9);
+ 
+  
+.tulisan_tombol {
+    display: inline-block;
+    font-size: 19px;
+    width: 200px;
+    height: 48px;
+    border-radius: 48px;
+    margin-right: 24px;
+    margin-left: 24px;
+    color:white;
+    background-color: #95b2c2;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px #d8d8d8;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: bold;
   }
+  
+/* .tulisan:active {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    box-shadow: none;
+  } */
 
 
   /* KONTEN */
